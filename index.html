@@ -24,7 +24,10 @@
       margin-bottom: 20px;
     }
 
-    /* Removed .info a { color: ... } to keep default browser blue link */
+    /* This ensures browser default styling is preserved */
+    .info a {
+      text-decoration: none;
+    }
 
     .info a:hover {
       text-decoration: underline;
